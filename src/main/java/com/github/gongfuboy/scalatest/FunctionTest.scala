@@ -21,7 +21,7 @@ object FunctionTest {
     println(defautArgsFunction())
     println(higherOrderFunction(recursiveFunction, 10))
     outFunction(1)
-    println(lambda)
+    println(lambda(1))
 
     // 偏应用函数
     val function = utinilyFunction(_ : Int, new java.util.Date());
