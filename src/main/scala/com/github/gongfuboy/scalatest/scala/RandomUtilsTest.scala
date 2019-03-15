@@ -8,10 +8,8 @@ import org.apache.commons.lang.math.RandomUtils
   */
 object RandomUtilsTest {
 
-  def main(args: Array[String]): Unit = {
-    List.empty.distinct
-    println("执行结束")
-
+  def test() = {
+    "执行结束"
   }
 
 }

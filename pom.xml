@@ -76,17 +76,16 @@
         </dependency>
 
         <dependency>
-            <groupId>com.isuwang</groupId>
-            <artifactId>service-commons_2.11</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-
-        <dependency>
             <groupId>ru.lanwen.verbalregex</groupId>
             <artifactId>java-verbal-expressions</artifactId>
             <version>1.5</version>
         </dependency>
-
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <licenses>
