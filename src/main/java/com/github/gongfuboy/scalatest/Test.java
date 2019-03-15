@@ -1,9 +1,34 @@
 package com.github.gongfuboy.scalatest;
 
 /**
- * @author GongFuBoy
- * @date 2018/4/12
- * @time 14:28
+ * Created by ZhouLiMing on 2019/1/14.
  */
 public class Test {
+
+    public static void main(String[] args) {
+        Integer integer1 = new Integer(10000);
+        Integer integer2 = new Integer(10000);
+        System.out.println(integer1 == integer2);
+    }
+
+}
+
+class Person {
+
+    public Integer age;
+
+    public String name;
+
+    public Person(Integer age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
