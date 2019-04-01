@@ -9,7 +9,7 @@ class RandomUtilsTestTest {
 
   @junit.Test
   def test : Unit = {
-    System.out.println(RandomUtilsTest.test())
+//    System.out.println(RandomUtilsTest.test())
   }
 
 }

@@ -1,6 +1,7 @@
 package com.github.gongfuboy.scalatest.scala
 
-import java.text.{DateFormat, SimpleDateFormat}
+import java.math.RoundingMode
+import java.text.{DateFormat, DecimalFormat, SimpleDateFormat}
 import java.util.Date
 
 /**
@@ -19,9 +20,18 @@ object TupleListTest {
 //    val date = new Date(1551336993000L)
 //    val format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
 //    println(format.format(date))
-    val value = "  "
-    println(value.size)
-    println(value.trim.size)
+//    val value = "  "
+//    println(value.size)
+//    println(value.trim.size)
+
+    
+    val decimal = BigDecimal.valueOf(10000.652)
+    println(new DecimalFormat(",###").format(decimal))
+
+    val decimal1 = BigDecimal.valueOf(1.026)
+    println(new DecimalFormat("0.00").format(decimal1))
+    new DecimalFormat("#.##%")
+    println(new DecimalFormat("#%").format(decimal1))
 
   }
 
